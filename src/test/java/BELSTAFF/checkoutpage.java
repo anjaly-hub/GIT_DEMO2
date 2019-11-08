@@ -68,6 +68,7 @@ public class checkoutpage extends base {
 			String expectedPrice= driver.findElement(subTotal).getText();
 			System.out.println(expectedPrice);
 			Assert.assertEquals(expectedPrice, orginalPrice,"Orginal item price and subtotal are matching");
+			System.out.println("done");
 		}
 
 }
